@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Weatherman React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Weatherman Photo](./src/assets/readme-photo/weatherman-port.png)
 
-## Available Scripts
+## License
+### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+### [MIT](https://opensource.org/licenses/MIT)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+* This is a react app that tells the weather using Openweather API. This app was created for better understanding of React and is a reapplication of a previous bootcamp assignment. This application has quick links, search, current location and displays information in both metric and imperial values.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+By: [Vincent Toon](https://github.com/Vincenttoon)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+* [Live Deployment](#live-deployment)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Technologies](Technologies)
 
-### `npm run build`
+* [Usage](#usage)  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Installation](#installation)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [Questions?](#questions)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Live Deployment
 
-### `npm run eject`
+* [Live Deployment Link](https://weatherman-react.vercel.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [React](https://reactjs.org/) based application. Use states, effect and hooks to create a dynamic single page application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* [Tailwind](https://tailwindcss.com/) was primarily used for format and styling. This was one my first applications of tailwind. Super smooth and easy to use. Dynamic and Versatile.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* [Luxon](https://www.npmjs.com/package/luxon) was used for date and time implementation. This package was much easier to use than the build in Javascript time functionality. Would definitely use again in the future.
 
-## Learn More
+* [Iconscout](https://iconscout.com/) was used for the icons. Pretty straight-forward. No better or worse than other icon stores I've used.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [React-Toastify](https://www.npmjs.com/package/react-toastify) was used to inform users on fetching and success of searching for locations. Neat little feature to let the user know that the application is working on the API end. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+* Use the live link. 
+* Search for cities all over the world. 
+* Change the values. 
+* Enjoy.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Installation
 
-### Analyzing the Bundle Size
+* Head to the repository to download or view this code: [Weatherman React](https://github.com/Vincenttoon/weatherman-react)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Questions?
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Questions, comments, or concerns? Please Email me at:
+* vincenttoon22@gmail.com
