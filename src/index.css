@@ -8,4 +8,26 @@
     html {
         font-family: 'Poppins', sans-serif;
     }
+
+    body {
+        background: grey;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .top-cities {
+        display: none;
+    }
+
+    .main-div {
+        width: 100%;
+        padding: 5%;
+        margin-top: 100px;
+    }
+
+    .tandl {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
